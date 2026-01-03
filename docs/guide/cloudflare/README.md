@@ -34,7 +34,7 @@
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
 | `名称` | 可替换为任意字符串 | `saas`<br>`cdn` |
-| `目标` | 可替换为优选域名 | `123.cloudflare.468123.xyz`<br>`abc.cloudflare.byoip.top` |
+| `目标` | 可替换为优选域名 | `cloudflare.468123.xyz` |
 
 回到自定义主机名
 
@@ -110,7 +110,7 @@
 
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
-| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top`<br>`web.cloudflare.468123.xyz`<br>`www.example.com.cloudflare.468123.xyz` |
+| `*` | 可替换为任意字符串 | `cloudflare.byoip.top` |
 
 ### 如果你的DNS提供商不支持分线路
 
@@ -122,7 +122,7 @@
 
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
-| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top`<br>`web.cloudflare.468123.xyz`<br>`www.example.com.cloudflare.468123.xyz` |
+| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top` |
 
 ## tunnel优选
 

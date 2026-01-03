@@ -4,4 +4,4 @@
 
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
-| `*` | 可替换为任意字符串 | `myapp.netlify.byoip.top`<br>`web.netlify.468123.xyz`<br>`www.example.com.netlify.468123.xyz` |
+| `*` | 可替换为任意字符串 | `myapp.netlify.byoip.top`<br>`netlify.468123.xyz` |

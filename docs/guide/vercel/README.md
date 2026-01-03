@@ -4,4 +4,4 @@
 
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
-| `*` | 可替换为任意字符串 | `myapp.vercel.byoip.top`<br>`web.vercel.468123.xyz`<br>`www.example.com.vercel.468123.xyz` |
+| `*` | 可替换为任意字符串 | `myapp.vercel.byoip.top`<br>`vercel.468123.xyz` |
