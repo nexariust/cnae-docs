@@ -46,7 +46,7 @@
 
 随后点击添加自定义主机名
 
-#### 对于单域名，即回退源和要优选域名的跟域名一致
+#### 对于单域名，即回退源和要优选域名的根域名一致
 
 ![单域名](../../_notes/img/cloudflare/cdn/saas-d.png)
 
@@ -57,7 +57,7 @@
 
 其他选项请使用默认值
 
-#### 对于双域名，即回退源和要优选的域名跟域名不一致
+#### 对于双域名，即回退源和要优选的域名根域名不一致
 
 ![单域名](../../_notes/img/cloudflare/cdn/saas-s.png)
 
@@ -77,7 +77,7 @@
 单域名主机名状态正常应会自动验证，如果没有自动验证添加txt记录即可
 
 ::: tip
-如果dns为cloudflare，则需删除跟域名，仅保留`_cf-custom-hostname.子域名`即可
+如果dns为cloudflare，则需删除根域名，仅保留`_cf-custom-hostname.子域名`即可
 :::
 
 ![主机名状态](../../_notes/img/cloudflare/cdn/saas-hostname.png)
@@ -89,7 +89,7 @@
 `_acme-challenge.你要优选的域名` txt记录 值为cloudflare提供的txt记录
 
 ::: tip
-如果dns为cloudflare，则需删除跟域名，仅保留`_acme-challenge.子域名`即可
+如果dns为cloudflare，则需删除根域名，仅保留`_acme-challenge.子域名`即可
 :::
 
 ![证书](../../_notes/img/cloudflare/cdn/saas-ssl.png)
@@ -185,7 +185,7 @@
 
 ## 证书自动续签
 
-拉倒自定义主机名页面底部，cloudflare会为每个开通自定义主机名的域名提供一个DCV 委派
+拉到自定义主机名页面底部，cloudflare会为每个开通自定义主机名的域名提供一个DCV 委派
 
 ![DCV](../../_notes/img/cloudflare/cdn/saas-dcv.png)
 
