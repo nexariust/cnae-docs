@@ -34,7 +34,7 @@
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
 | `名称` | 可替换为任意字符串 | `saas`<br>`cdn` |
-| `目标` | 可替换为优选域名 | `123.cloudflare.cnae.top`<br>`abc.cloudflare.byoip.top` |
+| `目标` | 可替换为优选域名 | `123.cloudflare.468123.xyz`<br>`abc.cloudflare.byoip.top` |
 
 回到自定义主机名
 
@@ -106,11 +106,11 @@
 
 ### 如果你的DNS提供商支持分线路
 
-则默认解析设为`xxx.pages.dev`(你项目分配的默认cname域名)，将中国大陆地区设为`*.cloudflare.cnae.top`
+则默认解析设为`xxx.pages.dev`(你项目分配的默认cname域名)，将中国大陆地区设为`cloudflare.468123.xyz`
 
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
-| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top`<br>`web.cloudflare.cnae.top`<br>`www.example.com.cloudflare.cnae.top` |
+| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top`<br>`web.cloudflare.468123.xyz`<br>`www.example.com.cloudflare.468123.xyz` |
 
 ### 如果你的DNS提供商不支持分线路
 
@@ -118,11 +118,11 @@
 不确定证书是否会自动续签
 :::
 
-则将默认分配的`xxx.pages.dev`(你项目分配的默认cname域名)换为`*.cloudflare.cnae.top`
+则将默认分配的`xxx.pages.dev`(你项目分配的默认cname域名)换为`cloudflare.468123.xyz`
 
 | 占位符 | 说明 | 示例 |
 | --- | --- | --- |
-| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top`<br>`web.cloudflare.cnae.top`<br>`www.example.com.cloudflare.cnae.top` |
+| `*` | 可替换为任意字符串 | `myapp.cloudflare.byoip.top`<br>`web.cloudflare.468123.xyz`<br>`www.example.com.cloudflare.468123.xyz` |
 
 ## tunnel优选
 
