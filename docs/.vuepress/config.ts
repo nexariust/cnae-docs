@@ -16,7 +16,7 @@ export default defineUserConfig({
     ['meta', { name: 'keywords', content: 'CNAE, API文档, Vercel, Netlify, Edgeone, Cloudflare, 云驰互联, 优选配置, 技术文档' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['link', { rel: 'canonical', href: 'https://docs.cnae.top/' }],
-    ['meta', { name: 'author', content: 'fishcpy cloud' }],
+    ['meta', { name: 'author', content: 'nexariust' }],
     // umami统计代码
     ['script', {
       defer: true,
@@ -43,10 +43,10 @@ export default defineUserConfig({
     // 启用文章变更历史功能
     changelog: {
       maxCount: 10, // 最大显示10条变更记录
-      repoUrl: 'https://github.com/fishcpy-cloud/cnae-docs' // 仓库URL
+      repoUrl: 'https://github.com/nexariust/cnae-docs' // 仓库URL
     },
     footer: {
-      copyright: '© 2025 fishcpy cloud All rights reserved',
+      copyright: '© 2025 nexariust All rights reserved',
     },
     navbar: [
       { text: '首页', link: '/' },
