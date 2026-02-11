@@ -51,7 +51,8 @@ export default defineUserConfig({
     navbar: [
       { text: '首页', link: '/' },
       { text: 'API 文档', link: '/api/' },
-      { text: '使用指南', link: '/guide/' }
+      { text: '使用指南', link: '/guide/' },
+      { text: '关于', link: '/about/' }
     ],
     // 侧边栏配置
     sidebar: {
