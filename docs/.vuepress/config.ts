@@ -46,7 +46,7 @@ export default defineUserConfig({
       repoUrl: 'https://github.com/nexariust/cnae-docs' // 仓库URL
     },
     footer: {
-      copyright: '© 2025 nexariust All rights reserved',
+      copyright: '© 2026 nexariust All rights reserved',
     },
     navbar: [
       { text: '首页', link: '/' },
