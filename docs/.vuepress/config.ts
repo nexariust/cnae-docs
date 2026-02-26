@@ -34,7 +34,14 @@ export default defineUserConfig({
     logo: '',
     repo: '',
     // 设置全局版权为 nexariust（遵循 CC-BY-NC-SA-4.0 协议授权）
-    copyright: 'CC-BY-NC-SA-4.0',
+    copyright: {
+      author: {
+        name: 'nexariust',
+        url: 'https://github.com/nexariust',
+      },
+      license: 'CC-BY-NC-SA-4.0',
+      creation: 'original',
+    },
     // 关闭文章贡献者功能，统一展示 nexariust 归属
     contributors: false,
     // 启用文章变更历史功能
