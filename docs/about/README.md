@@ -9,4 +9,4 @@
 
 ## 关于版权
 
-本文档所有文章及教程均根据 [署名-非商业性-相同方式共享 4.0 国际 (CC-BY-NC-SA-4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议授权。
+本项目所有文档内容的版权归属 [nexariust](https://github.com/nexariust)，并根据 [署名-非商业性-相同方式共享 4.0 国际 (CC-BY-NC-SA-4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议授权。

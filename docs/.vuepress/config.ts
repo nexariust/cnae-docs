@@ -28,18 +28,15 @@ export default defineUserConfig({
     // 主题配置
     themeColor: '#46bd87',
     author: {
-      name: '文档作者',
-      link: '',
+      name: 'nexariust',
+      link: 'https://github.com/nexariust',
     },
     logo: '',
     repo: '',
-    // 设置全局版权协议为CC-BY-NC-SA-4.0（署名—非商业性使用—相同方式共享 4.0）
+    // 设置全局版权为 nexariust（遵循 CC-BY-NC-SA-4.0 协议授权）
     copyright: 'CC-BY-NC-SA-4.0',
-    // 启用文章贡献者功能，设置为block模式显示完整信息
-    contributors: {
-      mode: 'block',
-      avatar: true
-    },
+    // 关闭文章贡献者功能，统一展示 nexariust 归属
+    contributors: false,
     // 启用文章变更历史功能
     changelog: {
       maxCount: 10, // 最大显示10条变更记录
